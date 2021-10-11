@@ -1,7 +1,7 @@
 ---
 service:
   enable: true
-  title: Our Services
+  title: TESTIMONIALS
   service_item:
   - name: WordPress Theme
     icon: ti-world
@@ -25,5 +25,4 @@ service:
       facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
   - name: Networking
     icon: ti-pulse
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: NetworkingNetworkingNetworkingNetworkingNetworkingNetworkingNetworking
