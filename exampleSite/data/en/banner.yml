@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/canva2-transparent-61pc-black-and-white-background-sagar.webp
-  bg_image: images/backgrounds/canva2-transparent-61pc-black-and-white-background-sagar.png
+  bg_image_webp: images/backgrounds/canva2-transparent-black-and-white-background-sagar.webp
+  bg_image: images/backgrounds/canva2-transparent-black-and-white-background-sagar.png
   icon: ''
   title: Get fit with me
   content: NO EXCUSES. JUST DO THE WORK.
