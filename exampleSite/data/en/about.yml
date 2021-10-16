@@ -1,12 +1,11 @@
 ---
 about:
   enable: true
-  title: About Us
+  title: About Me
   about_item:
   - icon: ti-ruler-pencil
-    title: We're Creative
-    content: We're Creative We're Creative We're Creative We're Creative We're Creative
-      We're Creative We're Creative We're Creative
+    title: Workout Plan
+    content: lorem ipsum
   - icon: ti-cup
     title: We're Professional
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
