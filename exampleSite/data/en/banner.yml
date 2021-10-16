@@ -5,8 +5,8 @@ banner:
   bg_image: images/backgrounds/canva2-transparent-61pc-black-and-white-background-sagar.png
   icon: ''
   title: Get fit with me
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
-    At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+  content: 'Each new day is a new opportunity to improve yourself. Take it and make
+    the most of it. '
   button:
     enable: true
     label: Explore
