@@ -5,8 +5,7 @@ banner:
   bg_image: images/backgrounds/canva2-transparent-61pc-black-and-white-background-sagar.png
   icon: ''
   title: Get fit with me
-  content: 'Each new day is a new opportunity to improve yourself. Take it and make
-    the most of it. '
+  content: Train with me and do something that your future self with thank you for
   button:
     enable: true
     label: Explore
