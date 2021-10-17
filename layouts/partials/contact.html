@@ -37,7 +37,24 @@
 			{{ if .contact_form.enable }}
 			{{ with .contact_form }}
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
+
+				<form name="contact-info" method="POST" netlify-honeypot="bot-field" netlify>
+					<p class="u-visually-hidden">
+						<label>Don’t fill this out if you're human: <input name="bot-field"></label>
+					</p>					
+					<label>What is your name?
+					  <input name="full-name" type="text" placeholder="Your full name" required>
+					</label>
+					<label>What is your email address?
+					  <input name="email-address" type="email" placeholder="Your email" required>
+					</label>
+					<label>What your message?
+					  <textarea name="message" type="text" placeholder="Your message..." required></textarea>
+					</label>
+					  <button type="submit" value="Submit" id="Form-submit">Submit</button>
+				  </form>
+
+				  <!-- <form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
 					<div class="form-group">
 						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
 					</div>
@@ -54,7 +71,7 @@
 						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
 							value="{{ .submit }}">{{ .submit }}</button>
 					</div>
-				</form>
+				</form> -->
 			</div>
 			{{ end }}
 			{{ else }}
