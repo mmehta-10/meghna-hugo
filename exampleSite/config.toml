@@ -8,7 +8,7 @@ themesDir = "../.."
 title = "Sagar Physique"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Created by [Megha](https://twitter.com/meghamehtatech)"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
@@ -119,6 +119,9 @@ link = "#"
 [[params.social]]
 icon = "ti-youtube"
 link = "#"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/sagarphysique/"
 [[params.social]]
 icon = "ti-pinterest"
 link = "#"
